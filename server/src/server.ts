@@ -5,7 +5,7 @@ import { prisma } from './config/prisma.js';
 const PORT = env.PORT;
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`🚀 Server running on port: ${PORT}`);
 });
 
 process.on('SIGINT', async () => {
