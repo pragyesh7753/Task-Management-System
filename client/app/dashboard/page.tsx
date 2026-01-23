@@ -133,10 +133,10 @@ export default function DashboardPage() {
 
   return (
     <ProtectedRoute>
-      <div className="flex h-screen flex-col bg-gradient-to-br from-slate-50 to-blue-50">
+      <div className="flex h-screen flex-col bg-linear-to-br from-slate-50 to-blue-50">
         <Navbar />
         <main className="mx-auto flex w-full max-w-7xl flex-1 flex-col overflow-hidden px-4 py-8 sm:px-6 lg:px-8">
-          <h1 className="mb-8 text-3xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">My Tasks</h1>
+          <h1 className="mb-8 text-3xl font-bold bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">My Tasks</h1>
           <SearchFilterBar
             search={search}
             status={status}
